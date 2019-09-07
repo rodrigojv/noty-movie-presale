@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --exec babel-node --presets babel-preset-env index.js",
+    "dev": "nodemon -r esm index.js --ignore db.json",
+    "test": "mocha --require babel-register index.test.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.7.1",
+    "date-fns": "^2.0.1",
+    "dotenv": "^8.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "mailgun-js": "^0.22.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "sparkpost": "^2.1.3"
+  }
+}
