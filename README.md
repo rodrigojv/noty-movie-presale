@@ -7,31 +7,9 @@
 
 > App that notifies via email a presale available for DC movies (only in Paraguay movie theaters :()
 
-## Install
+## Usage and installation
 
-```sh
-npm install
-```
-
-## Usage
-
-Production
-
-```sh
-npm run start
-```
-
-Development
-
-```sh
-npm run dev
-```
-
-## Run tests
-
-```sh
-npm run test
-```
+See individual folders for usage and installation details.
 
 ## Author
 
